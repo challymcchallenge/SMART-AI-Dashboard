@@ -33,3 +33,48 @@ With over 15 years of experience in IT and a background built in top internation
 𝐈 𝐥𝐢𝐯𝐞 𝐢𝐧 𝐒𝐰𝐞𝐝𝐞𝐧 🇸🇪 𝐚𝐧𝐝 𝐭𝐫𝐚𝐯𝐞𝐥 𝐟𝐫𝐞𝐪𝐮𝐞𝐧𝐭𝐥𝐲 𝐭𝐨 𝐑𝐨𝐦𝐚𝐧𝐢𝐚 🇹🇩 to stay close to my projects. 
 
 𝐋𝐞𝐭'𝐬 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 & see how we can collaborate! 🚀
+
+--------------------
+
+## 📊 Demo online — Modul de Raportare AI · Breeze & Charisma
+
+Dashboard demonstrativ pentru restaurante și food delivery care folosesc **Breeze** (POS), **ExpresSoft** (POS) și
+**Charisma** (ERP & HCM). Toate datele, numele, produsele și zonele sunt **fictive**, generate exclusiv pentru
+demonstrație — restaurantul imaginar „Gustul Casei", anul 2026 complet (01.01 – 31.12.2026).
+
+**Cont demo (afișat și pe ecranul de login):** utilizator `Demo` · parolă `Demo`
+
+| Fișier | Rol |
+|---|---|
+| `index.html` | Dashboard complet, self-contained (date, Chart.js și toate limbile incluse inline; funcționează și offline, deschis direct din fișier) |
+| `vercel.json` | Headere `X-Robots-Tag: noindex` pe toate rutele |
+| `robots.txt` | `Disallow: /` |
+
+### Ce demonstrează
+
+- **Selector global de perioadă**: tot anul 2026 · lună · săptămână · interval personalizat — toate secțiunile,
+  graficele, clasamentele și concluziile se recalculează instant; comparații automate cu perioada anterioară și cu 2025.
+- **10 secțiuni de analiză**: Sumar Executiv · Vânzări & Venituri · Tendințe & Sezonalitate · Plan de Fidelizare · ROI ·
+  Produse & Meniu · Bucătărie / KDS · Livrare · Personal & Pontaj · Calitate & Pierderi ·
+  Concluzii & Recomandări (generate automat: puncte forte, de îmbunătățit, recomandări cu Impact & Efort).
+- Secțiunea **„Cum funcționează"**: platformele integrate (Breeze, ExpresSoft, Charisma, Saga), procesul în 4 pași, ce primește clientul, întrebări frecvente, contact.
+- **Hinturi** `?` pe indicatori și grafice, **ghid rapid** la prima vizită, tabele sortabile cu export CSV,
+  deep-links pe secțiuni (`#livrare`), responsive (desktop · tabletă · mobil).
+
+### Limbi și monede
+
+- **5 limbi**: Română (implicit) · English · Svenska · Français · Deutsch — selectabile de pe ecranul de login sau din
+  meniul 🌐 din bara de perioadă. Se traduc interfața, hinturile, concluziile generate automat, etichetele din grafice și
+  formatul numerelor/datelor. Numele proprii fictive rămân neschimbate.
+- **3 monede**: lei · EUR · SEK. Moneda urmează automat limba (RO → lei, EN/FR/DE → EUR, SV → SEK) și poate fi
+  schimbată manual din meniul 💱; sumele sunt reconvertite la cursuri fixe BNR din 01.09.2026, afișate lângă selector.
+- **Link-uri directe**: `?lang=en`, `?lang=sv`, `?lang=fr&cur=EUR`, `?lang=de&cur=RON`.
+  Alegerea se păstrează doar pe durata sesiunii de browser; la o vizită nouă demo-ul pornește în română.
+
+### Acces și deploy
+
+Ecranul de login este client-side și are rol de „poartă" pentru demo — contul `Demo / Demo` este public prin design;
+nu există date reale. Deploy pe Vercel: Add New → Project → Import Git Repository → framework **Other**, fără build
+command. Funcționează identic pe GitHub Pages sau pe orice hosting static — este un singur fișier HTML.
+
+Made with ❤️ by BizTech Consulting SRL
