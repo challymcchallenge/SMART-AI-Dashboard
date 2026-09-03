@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+Thumbs.db
+# sursele (generator, JS, dictionare) raman doar local
+sursa/
