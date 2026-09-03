@@ -1,5 +1,4 @@
-# SMART-AI-Dashboard
-Module de raportare inteligenta cu AI, by Alin Labau
+# SMART-AI-Dashboard by Alin Labau
 
 🏆#𝐌𝐚𝐤𝐞-𝐈𝐓-𝐆𝐫𝐞𝐚𝐭-𝐅𝐨𝐫-𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫 | 𝐰𝐰𝐰.𝐛𝐢𝐳𝐭𝐞𝐜𝐡.𝐫𝐨 | +𝟒𝟎𝟕𝟕𝟐𝟐𝟗𝟓𝟎𝟑𝟏
 
